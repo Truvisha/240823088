@@ -130,6 +130,75 @@
 // }
 // console.log("sum of digits:",n)
 
+// console.log("program.12 check armstrong number")
+// let n = 153;
+// let num = n.toString(); 
+// let count = num.length;
+
+// let sum = 0;
+
+// for (let digit of num) {
+//     sum += Math.pow(Number(digit), count); 
+// }
+
+// if (sum === n) {
+//     console.log("Number is Armstrong");
+// } else {
+//     console.log("Number is Not Armstrong");
+// }
+
+console.log("program.13 Generate Fibonacci Series")
+
+console.log("program.14 Check Vowel or Consonant")
+
+// console.log("program.15 Simple Calculator")
+// var a=4
+// var b=2
+// console.log(`${a} + ${b} = ${a+b}`)
+// console.log(`${a} - ${b} = ${a-b}`)
+// console.log(`${a} * ${b} = ${a*b}`)
+// console.log(`${a} / ${b} = ${a/b}`)
+
+// console.log("program.16 Find GCD (HCF)")
+// var a = 20, b = 28, gcd;
+// for (i = 1; i <= a && i <= b; i++)
+// {
+//     if (a % i == 0 && b % i == 0) 
+//     {
+//         gcd = i;
+//     }
+// }
+// console.log(gcd);  
+   
+// console.log("program.17 check perfect number")
+// var n=28
+// var sum=0
+// for(i=1;i<n;i++)
+// {
+//     if(n%i==0)
+//     {
+//         sum+=i
+//     }
+// }
+// if(sum==n)
+// {
+//     console.log("number is perfect")
+// }
+// else
+// {
+//     console.log("number is not perfect")
+// }
+
+// console.log("program.18 print all divisors")
+// var n=10
+// for(i=1;i<=n;i++)
+// {
+//     if(n%i==0)
+//     {
+//         console.log(i)
+//     }
+// }
+
 // console.log("program.19 number is positive,negative or zero")
 // var n=-5
 // if(n>0)
