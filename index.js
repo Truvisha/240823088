@@ -98,37 +98,28 @@
 // }
 
 // console.log("program.10 count digits in a number")
-// var n=5023
-// var count=0
-// if(n==0)
+// function digit(num)
 // {
-//     count=1;
+//     return String(num).length
 // }
-// else
-// {
-//     if(n<0)
-//     {
-//         n+=n
-//     }
-//     else(n!=0)
-//     {
-//         count++
-//     }
-// }
-// console.log("number of digits:",n)
+// let n=5023
+// console.log(digit(n))
 
 // console.log("program.11 sum of digits")
-// var n=123
-// var sum=0
-// var digit=0
-
-// while(n)
+// function sumdigit(num)
 // {
-//     digit=n%10
-//     sum+=digit
-//     n=(n-digit)/10
+//     const numstr=num.toString()
+//     let sum=0
+//     for(const char of numstr)
+//     {
+//         if(!isNaN(char))
+//         {
+//             sum+=Number(char)
+//         }
+//     }
+//     return sum
 // }
-// console.log("sum of digits:",n)
+// console.log(sumdigit(123))
 
 // console.log("program.12 check armstrong number")
 // let n = 153;
@@ -147,9 +138,30 @@
 //     console.log("Number is Not Armstrong");
 // }
 
-console.log("program.13 Generate Fibonacci Series")
+// console.log("program.13 Generate Fibonacci Series")
+// let num=5
+// let a=0
+// let b=1
+// let c=0
+// for(let i=0;i<num;i++)
+// {
+//     console.log(a)
+//     c=a+b
+//     a=b
+//     b=c
+// }
 
-console.log("program.14 Check Vowel or Consonant")
+// console.log("program.14 Check Vowel or Consonant")
+// let char="a"
+// if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"||
+//    char==="A"||char==="E"||char==="I"||char==="O"||char==="U")
+//    {
+//        console.log("it's a vowel")
+//    }
+//    else
+//    {
+//     console.log("it's a consonants")
+//    }
 
 // console.log("program.15 Simple Calculator")
 // var a=4
