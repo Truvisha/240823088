@@ -1,2 +1,0 @@
-mongodb+srv://truvishasavaliya244_db_user:truvi0204@nodejs.kbvdjf6.mongodb.net/?retryWrites=
-true&w=majority&appName=Nodejs
